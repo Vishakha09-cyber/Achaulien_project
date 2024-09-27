@@ -3,7 +3,7 @@
   padding: 0;
 }
 .page-width {
-  max-width: 1420px;
+  max-width: 1380px;
   margin: 0px auto;
 }
 .announcement-bar {
@@ -35,4 +35,114 @@ ul.Menu_List {
   list-style-type: none;
   display: flex;
   gap: 30px;
+}
+/* Banner Css */
+
+.banner_wrapper.block-aligned--middle-center {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.banner_content_inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+  gap: 16px;
+}
+button.secondary_btn{
+  font-family: "Neue-Regrade-Bold";
+  background: #000;
+  color: #fff;
+  font-size: 15px;
+  padding: 7px 17px;
+  /* border-radius: 40px; */
+  border: 2px solid #000;
+  cursor: pointer;
+}
+button.secondary_btn{
+  position: relative;
+  overflow: hidden;
+}
+button.secondary_btn:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  /* border-radius: 41px; */
+  transform: translate(-101%);
+  transition: 1s cubic-bezier(0,0,.3,1);
+  box-shadow: #06060608 0 30px 60px -12px inset, #00000038 0 18px 36px -18px inset;
+}
+button.secondary_btn:hover::before{
+  transform: translateX(0%);
+}
+button.secondary_btn:hover span{
+  position: relative;
+  z-index: 2;
+  color: #000;
+}
+.banner_content_inner .banner_head {
+  font-family: Neue-Regrade-Bold;
+  font-size: 61px;
+  color: #000;
+  width: 60%;
+  line-height: 55px;
+  letter-spacing: 0px;
+}
+.banner_content_inner .banner_subhead {
+  font-family: "Neue-Regrade-Semibold";
+  color: #000;
+  width: 38.4%;
+  font-size: 14px;
+  line-height: 20px;
+}
+.banner_btn.button2 {
+  margin-top: 30px;
+}
+.button2 a.btn2--primary button.primary_btn {
+  background: #D70C19;
+  border: 2px solid #d70c19;
+  /* border-radius: 41px; */
+  color: #fff;
+  font-family: "Neue-Regrade-Semibold";
+  font-size: 20px;
+  /* padding: 18px 65px; */
+  padding: 10px 65px;
+  line-height: 26px;
+  cursor: pointer;
+}
+button.primary_btn:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  /* border-radius: 41px; */
+  transform: translateX(-101%);
+  transition: 1s cubic-bezier(0, 0, .3, 1);
+  box-shadow: rgb(215 12 25 / 3%) 0px 30px 60px -12px inset, rgb(215 12 25 / 22%) 0px 18px 36px -18px inset;
+}
+button.primary_btn:hover::before {
+  transform: translateX(0%);
+}
+button.primary_btn {
+  position: relative;
+  overflow: hidden;
+}
+button.primary_btn:hover span {
+  position: relative;
+  z-index: 2;
+  color: #d70c19;
 }
