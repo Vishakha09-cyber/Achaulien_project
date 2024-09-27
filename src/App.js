@@ -1,7 +1,7 @@
 import './App.css';
 import BannerSection from './BannerSection';
 import CollectionList from './CollectionList';
-import Header from './header/HeaderNavbar'; // Make sure to check case sensitivity in the path
+import Header from './header/header'; // Make sure to check case sensitivity in the path
 import products from './data/products.json'; // Adjust the path to your product.json
 
 function App() {
