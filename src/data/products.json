@@ -6,7 +6,7 @@
         "vendor": "E-TIME",
         "size": "24 X 200ml",
         "image": {
-            "src": "//testdemostore1221.myshopify.com/cdn/shop/files/453mwiq9_2x-removebg-preview.png?v=1725255209",
+            "src": "https://testdemostore1221.myshopify.com/cdn/shop/files/453mwiq9_2x-removebg-preview.png?v=1725255209&width=360",
             "alt": "Classic Original Milk Tea"
         },
         "rating": {
@@ -22,7 +22,7 @@
         "vendor": "GreenTea Co.",
         "size": "20 X 250ml",
         "image": {
-            "src": "//testdemostore1221.myshopify.com/cdn/shop/files/greenteajasmine.png?v=1725255209",
+            "src": "https://testdemostore1221.myshopify.com/cdn/shop/files/f08130p-removebg-preview.png?v=1725357844&width=360",
             "alt": "Green Tea with Jasmine"
         },
         "rating": {
@@ -38,7 +38,7 @@
         "vendor": "Soy Co.",
         "size": "500ml",
         "image": {
-            "src": "//testdemostore1221.myshopify.com/cdn/shop/files/soysauce.png?v=1725255209",
+            "src": "https://testdemostore1221.myshopify.com/cdn/shop/files/d8h7cfxn_2x-removebg-preview.png?v=1725255212&width=360",
             "alt": "Premium Soy Sauce"
         },
         "rating": {
@@ -54,7 +54,7 @@
         "vendor": "Szechuan Delights",
         "size": "250ml",
         "image": {
-            "src": "//testdemostore1221.myshopify.com/cdn/shop/files/szechuan-sauce.png?v=1725255209",
+            "src": "https://testdemostore1221.myshopify.com/cdn/shop/files/f08133p-removebg-preview.png?v=1725357847&width=360",
             "alt": "Spicy Szechuan Sauce"
         },
         "rating": {
@@ -70,7 +70,7 @@
         "vendor": "Choco Heaven",
         "size": "300g",
         "image": {
-            "src": "//testdemostore1221.myshopify.com/cdn/shop/files/hotchocolate.png?v=1725255209",
+            "src": "https://testdemostore1221.myshopify.com/cdn/shop/files/xzrtnipt_2x-removebg-preview.png?v=1725255217&width=360",
             "alt": "Gourmet Hot Chocolate Mix"
         },
         "rating": {

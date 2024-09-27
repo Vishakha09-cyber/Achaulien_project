@@ -9,10 +9,10 @@ const ProductCard = ({ product }) => {
             <p>Vendor: {product.vendor}</p>
             <p>Size: {product.size}</p>
             <div>
-                <span>Rating: {product.rating.average} ({product.rating.numberOfReviews} reviews)</span>
+                <span>Rating: {product.rating.average.toFixed(1)} ({product.rating.numberOfReviews} reviews)</span>
             </div>
             <a href={product.link}>
-                <button>View Product</button>
+                <button>Add to Cart</button>
             </a>
         </div>
     );

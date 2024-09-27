@@ -1,20 +1,20 @@
 import React from 'react';
-import ProductList from './ProductList';
+import ProductCard from './header/ProductCard';
 
-const CollectionList = () => {
+const CollectionList = ({ collectionTitle, products }) => {
     return (
         <div className="collection-list">
-            <div class="collection_heading">
-                <span class="collection_title">{collectionTitle}</span>
-                <span class="collection_viewAll">View All</span>
+            <div className="collection-heading">
+                <span className="collection-title">{collectionTitle}</span>
+                <span className="collection-viewAll" style={{ cursor: 'pointer', color: 'blue' }}>View All</span>
             </div>
-            <ul class="collectionList">
-                <li class="collectionItem"><ProductList /></li>
-                <li class="collectionItem"><ProductList /></li>
-                <li class="collectionItem"><ProductList /></li>
-                <li class="collectionItem"><ProductList /></li>
+            <ul className="collectionList">
+                {products.map(product => (
+                    <li className="collection-item" key={product.id}>
+                        <ProductCard product={product} />
+                    </li>
+                ))}
             </ul>
-            
         </div>
     );
 };
